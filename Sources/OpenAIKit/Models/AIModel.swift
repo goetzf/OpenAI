@@ -55,6 +55,9 @@ public extension AIModelType {
 		/// The latest GPT-4 turbo model.
 		case gpt4Turbo = "gpt-4-turbo"
 		
+		/// Most advanced GPT-4 model, cheaper and faster than GPT-4 Turbo.
+		case gpt4o = "gpt-4o"
+		
 		/// More capable than any GPT-3.5 model, able to do more complex tasks, and optimized for chat. Will be updated with our latest model iteration.
 		case gpt4 = "gpt-4"
 		/// Same capabilities as the base `gpt-4` mode but with 4x the context length. Will be updated with our latest model iteration.
